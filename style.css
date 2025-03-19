@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0;
+}
+/*( 코멘트 넣기 쉬프트8 + / ) */
+body {
+  background-color: linen;
+  color: #333;
+  font-size: 17;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.main {
+  color: blue;
+  line-height: 2;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  height: 60px;
+}
+
+.navbar .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.navbar .logo {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar a :hover {
+  border-bottom: 2px #fff solid;
+  color: #ddd;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 5px 10px;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+button :hover {
+  background-color: yellow;
+  color: red;
+}
