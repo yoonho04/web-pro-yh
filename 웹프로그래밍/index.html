@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>웹프로그래밍</title>
+    <link rel="stylesheet" href="style.css" /></link>
+  </head>
+
+  <body>
+    <!-- 코멘트 넣기는 컨트롤 + /  -->
+    <!-- 메뉴 -->
+
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo"> WEB DEMO</div>
+        <ul class="nav">
+          <li><a href="/">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="contact.html">contact</a></li>
+          <li><a href="team.html">team</a></li>
+        </ul>
+      </div>
+    </nav>
+
+ <!-- 메인 섹션--> 
+  <section class="main">
+    <div class="container">
+
+      <h1>웹프로그램 , web programming</h1>
+      <h2>중부대학교 정보보호학과 김윤호</h2>
+      <h3>
+        웹 개발자를 위한 온라인 메뉴얼:
+        <a href="https://www.w3schools.com/">w3school</a>
+      </h3>
+    
+      <p>
+        웹프로그래밍의 3가지 요소:
+        <a href="https://www.w3schools.com/html/default.asp">HTML5</a>
+        <a href="https://www.w3schools.com/css/default.asp">CSS</a>
+        <a href="https://www.w3schools.com/js/default.asp">JAVA SCRIPT</a>
+      </p>
+    
+      <p>현재시간: <span id="time"></span></p>
+    
+      <hr />
+    
+      <p>
+        배경색바꾸기 :
+        <button onclick="pink()">PINK</button>
+        <button onclick="lightblue()">LIGHT BLUE</button>
+        <button onclick="yellow()">YELLOW</button>
+        <button onclick="reset()">RESET</button>
+      </p>
+    
+      <p>
+        배워봅시다:
+        <button onmouseover="showhtml()" onmouseout="hide()">HTML5</button>
+        <button onmouseover="showcss()" onmouseout="hide()">CSS</button>
+        <button onmouseover="showjs()" onmouseout="hide()">JAVA script</button>
+      </p>
+    
+      <div>
+        <img id="fig" height="200px" />
+        <p id="desc"></p>
+      </div>
+    </div>
+  </section>
+
+
+    <script src="main.js"></script>
+  </body>
+</html>

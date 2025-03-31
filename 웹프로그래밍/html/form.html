@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <div>
+          <legend>로그인</legend>
+        </div>
+        <div>
+          <label for="id">아이디(6자이상)</label>
+          <input type="text" id="id" size="50" value="" maxlength="10" />
+        </div>
+        <div>
+          <label for="password">패스워드</label>
+          <input type="password" name="" id="password" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>배송정보</legend>
+        <input type="search" name="" id="" /><br />
+        URL - <input type="url" name="" id="" /><br />
+        Email - <input type="email" name="" id="" /><br />
+        Tel - <input type="tel" name="" id="" /><br />
+        <p>주문할 상품을 선택해 주세요.</p>
+        <input type="radio" checked name="gift" value="3" id="s-1" />
+        <label for="s-1">선물용 3Kg</label>
+        <input type="radio" name="gift" value="5" id="s-2" />
+        <label for="s-2">선물용 5Kg</label>
+        <input type="radio" name="gift" value="10" />
+        <label for="s-3">선물용 10KG</label>
+        <br />
+        <input type="checkbox" checked name="h-1" value="3" />
+        <label for="h-1">가정용 3Kg</label>
+        <input type="checkbox" id="h-2" value="5" />
+        <label for="h-1">가정용 5Kg</label>
+        <input type="checkbox" id="h-3" value="10" />
+        <label for="h-1">가정용 10Kg</label>
+      </fieldset>
+    </form>
+  </body>
+</html>
