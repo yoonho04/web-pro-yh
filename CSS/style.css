@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+}
+main {
+  background-color: chartreuse;
+  color: darkblue;
+}
+
+h1 {
+  background-color: aquamarine;
+}
+
+p {
+  background-color: rgb(5, 52, 54);
+}
+
+.pclass {
+  background-color: blue !important;
+}
+
+#pid {
+  background-color: yellow;
+}
+
+.special {
+  color: crimson;
+}
+
+.accent {
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+.bg {
+  background-color: #aaa;
+}
+
+#container {
+  width: 500px;
+  margin: 30px auto;
+  padding: 10px;
+  border: 1px solid #111;
+}
+
+.perant {
+  text-align: right;
+}
+
+article {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.shadow1 {
+  color: red;
+  text-shadow: 5px 5px black;
+}
+
+.shadow2 {
+  text-shadow: 5px 5px 3px yellow;
+}
+
+.shadow3 {
+  color: #fff;
+  text-shadow: 7px 7px -10px #000;
+}
+
+.book1 {
+  list-style-type: square;
+  list-style-image: 'featured.png';
+}
+
+.book2 {
+  list-style-type: decimal-leading-zero;
+}
+
+table {
+  border: 2px solid greenyellow;
+}
+
+td {
+  border: 1pc dotted blue;
+  padding: 10px;
+  text-align: center;
+}
